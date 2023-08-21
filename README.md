@@ -7,3 +7,8 @@ It is assumed that you already have all the tools needed on your local platform 
 If you need authentication:
 User: testuser
 Password: LittleLemon12
+
+some api endpoints
+/auth/users/
+/restaurant/menu/menu/
+/restaurant/booking/booking/
