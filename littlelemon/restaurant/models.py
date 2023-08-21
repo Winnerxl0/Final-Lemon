@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Booking(models.Model):
     id = models.AutoField(primary_key=True)
     Name = models.CharField(max_length=255)
@@ -9,7 +9,7 @@ class Booking(models.Model):
     
 
 
-# Add code to create Menu model
+
 class Menu(models.Model): 
     id = models.AutoField(primary_key=True)
     Title = models.TextField(max_length=255)
